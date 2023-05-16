@@ -151,3 +151,14 @@ nav ul li a:hover{
   justify-content: center;
   margin-top: 40px;
 }
+
+button{
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
