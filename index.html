@@ -73,6 +73,36 @@
 
   <!-- Contact  section-->
   <section>
+    <h1> Contact </h1>
+    <div class="contact_container">
+    <div class="formText_container revealable">
+      <p> Let's stay connected! Please fill out the contact form 👉🏼</p>
+    </div>
+
+    <div class="form_container">
+      <form id="contactForm">
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message"> Message:</label>
+        <textarea id="message" name="message"></textarea>
+      </form>
+      <button type="submit" id="sendButton"> Send</button>
+    </div>
+    </div>
+
+    <!-- modal -->
+    <div id="thanks-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div id="modal-text-container">
+          <p id="thanks-modal-content"> Thank you!</p>
+        </div>
+      </div>
+    </div>
     
   </section>
 

@@ -162,3 +162,85 @@ button{
   cursor: pointer;
   border-radius: 20px;
 }
+
+.contact_container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.formText_container {
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  margin-right: 180px;
+  text-indent: 30px;
+}
+.form_container {
+  margin-top: 30px;
+}
+
+
+form label, form input, form textarea {
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: lightcoral;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0,0,0,0,0.3);
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
