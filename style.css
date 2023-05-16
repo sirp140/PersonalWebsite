@@ -75,3 +75,19 @@ nav ul li a:hover{
   color: coral;
   font-weight: bold;
 }
+
+.about-container{
+  display: flex; /*  make it a flex container */
+  flex-direction: row;
+}
+
+ .img-container{
+   flex: 1;
+ }
+
+.text-container{
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  margin-top: 180px;
+  flex: 1;
+}
