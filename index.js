@@ -3,7 +3,7 @@ let sky = document.getElementById("sky");
 let bird = document.getElementById("bird");
 let greetingText = document.getElementById("greetingText");
 let sendButton = document.getElementById("sendButton");
-
+let darkModeButton = document.getElementById("darkMode");
 let revealableContainers = document.querySelectorAll(".revealable");
 
 //create object to keep movement rates
@@ -102,6 +102,9 @@ const reveal = () => {
   }
 }
 
+const turnDarkMode = () => {
+  document.body.classList.toggle("dark-mode");
+}
 
 
 
@@ -112,3 +115,5 @@ window.addEventListener('scroll', userScroll)
 sendButton.addEventListener('click', validateForm)
 
 window.addEventListener("scroll", reveal);
+
+darkModeButton.addEventListener("click", turnDarkMode);
