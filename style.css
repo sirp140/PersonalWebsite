@@ -31,8 +31,13 @@ html {
   
 }
 #myImg_dimension{
-  width: 600px;
+  width: 700px;
   height: 600px;
+}
+
+#skillsImg_dimension{
+  width: 600px;
+  height: 500px;
 }
 
 h1 {
@@ -258,6 +263,7 @@ form label, form input, form textarea {
 }
 
 footer{
+  margin-top: 50px;
   background-color: lightcoral;
 }
 
@@ -312,4 +318,22 @@ footer{
   letter-spacing: 1px;
   font-weight: 400;
   margin: 0px 5px;
+}
+
+#aboutList{
+  margin-bottom: 20px;
+}
+
+
+.skillsText-container{
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  margin-left: 80px;
+  margin-top: 140px;
+  flex: 1;
+}
+
+.skillsImg-container{
+  margin-left: 40px;
+  margin-top: 60px;
 }
