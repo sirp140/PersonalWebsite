@@ -1,4 +1,4 @@
-# Website
+# Personal Website👩🏻‍💻
 
 This repository contains the code for personal portfolio website. The website includes sections for Home, About, Projects, Skills, and Contact.
 
@@ -32,7 +32,7 @@ The website consists of the following sections:
   ⭐️ Dark Mode: The script includes an event listener for the "Dark Mode" button, allowing users to toggle between dark and light modes.
   ⭐️ Reveal Animation: The script applies a reveal animation to certain sections by adding a CSS class that adjusts the opacity and position of the elements when they come into view.
 
-## Technologies 🔌
+## Technologies🔌
 
 The website utilizes the following technologies:
 
