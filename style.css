@@ -10,7 +10,6 @@ html {
   overflow: hidden;
   display: flex;
   align-items: center;
-  
 }
 
 .header-container img{
@@ -320,7 +319,7 @@ footer{
   margin: 0px 5px;
 }
 
-#aboutList{
+#style-list{
   margin-bottom: 20px;
 }
 
@@ -329,7 +328,7 @@ footer{
   font-size: 20px;
   font-family: 'Pacifico', cursive;
   margin-left: 80px;
-  margin-top: 140px;
+  margin-top: 100px;
   flex: 1;
 }
 
@@ -337,3 +336,4 @@ footer{
   margin-left: 40px;
   margin-top: 60px;
 }
+

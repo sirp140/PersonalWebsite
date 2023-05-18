@@ -3,7 +3,7 @@ let sky = document.getElementById("sky");
 let bird = document.getElementById("bird");
 let greetingText = document.getElementById("greetingText");
 let sendButton = document.getElementById("sendButton");
-let darkModeButton = document.getElementById("darkMode");
+let darkModeButton = document.getElementById("darkModeBttn");
 let revealableContainers = document.querySelectorAll(".revealable");
 
 //create object to keep movement rates
